@@ -25,7 +25,7 @@ const productos = [
 
 const App = () => {
   return (
-    <div className="w-dvw justify-items-center p-4">
+    <div className="w-100dvw justify-items-center p-4">
       <h1 className="text-2xl font-bold text-center text-[yellow] mb-6">
         Mercado Libre Clone
       </h1>

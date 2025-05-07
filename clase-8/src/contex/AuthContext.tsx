@@ -8,7 +8,7 @@ export const AuthContext = createContext({} as AuthState);
 export const useAuthContext = () => useContext(AuthContext);
 
 export const AuthProvider = ({ children }: PropsWithChildren) => {
-    return <AuthContext.Provider value={{isActive:"mundo"}}>{children}</AuthContext.Provider>;
+    return <AuthContext.Provider value={{isActive:"hola mundo"}}>{children}</AuthContext.Provider>;
 }
       
 

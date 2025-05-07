@@ -14,7 +14,7 @@ export const LoginPage = () => {
             Ingresar a la aplicacion
           </h3>
           <button
-            className="bg-blue-400 p-2 rounded-2xl mt-1"
+            className="bg-orange-400 p-2 rounded-2xl mt-1 "
             onClick={() =>
               loginWithEmailPassword("cagugeia@unimayor.edu.co", "1002777958")
             }

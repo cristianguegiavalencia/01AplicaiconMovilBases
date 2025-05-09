@@ -110,12 +110,15 @@ export const Counter = () => {
         >
           -1
         </button>
+
+        <div className="mt-4">
         <button
           onClick={setRandom}
           className="p-2 bg-green-600 rounded text-white"
         >
-          🎲 Random
+          🎲 Número aleatorio
         </button>
+      </div>
       </div>
     </div>
   );
